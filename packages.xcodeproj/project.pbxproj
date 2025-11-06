@@ -44,6 +44,7 @@
 		F9A0ECC22EBC9FFE00ADF854 /* packagesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = packagesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A0ECC62EBC9FFE00ADF854 /* packagesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = packagesUITests.swift; sourceTree = "<group>"; };
 		F9A0ECC82EBC9FFE00ADF854 /* packagesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = packagesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F9A0ECDA2EBCA86D00ADF854 /* Core */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Core; path = ../Core; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 		F9A0EC9F2EBC9FE300ADF854 = {
 			isa = PBXGroup;
 			children = (
+				F9A0ECD92EBCA86D00ADF854 /* Packages */,
 				F9A0ECAA2EBC9FE300ADF854 /* packages */,
 				F9A0ECBB2EBC9FFE00ADF854 /* packagesTests */,
 				F9A0ECC52EBC9FFE00ADF854 /* packagesUITests */,
@@ -125,6 +127,14 @@
 				F9A0ECC82EBC9FFE00ADF854 /* packagesUITestsLaunchTests.swift */,
 			);
 			path = packagesUITests;
+			sourceTree = "<group>";
+		};
+		F9A0ECD92EBCA86D00ADF854 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				F9A0ECDA2EBCA86D00ADF854 /* Core */,
+			);
+			name = Packages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
