@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F92546162EBDFE29008B194C /* Features */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Features; path = ../Features; sourceTree = "<group>"; };
 		F9A0ECA82EBC9FE300ADF854 /* packages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = packages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A0ECAB2EBC9FE300ADF854 /* packagesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = packagesApp.swift; sourceTree = "<group>"; };
 		F9A0ECAD2EBC9FE300ADF854 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +76,7 @@
 		F9A0EC9F2EBC9FE300ADF854 = {
 			isa = PBXGroup;
 			children = (
+				F92546162EBDFE29008B194C /* Features */,
 				F9A0ECD92EBCA86D00ADF854 /* Packages */,
 				F9A0ECAA2EBC9FE300ADF854 /* packages */,
 				F9A0ECBB2EBC9FFE00ADF854 /* packagesTests */,
