@@ -6,18 +6,23 @@
 //
 
 import SwiftUI
+import Features
 
 struct ContentView: View {
+    @State private var isLoggedIn = false
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        Group {
+            if isLoggedIn {
+                Text("✅ Welcome to NoteKeeperApp!")
+                    .font(.title)
+            } else {
+                LoginView(isLoggedIn: $isLoggedIn)
+            }
         }
-        .padding()
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
